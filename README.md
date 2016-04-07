@@ -1,2 +1,2 @@
 # pydsa-viz-examples
-PyDSA Vizualization Examples
+PyDSA Visualization Examples
