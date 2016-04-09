@@ -1,0 +1,34 @@
+.element {
+	color: grey ;
+	display: inline;
+	line-height: 60px;
+	position: absolute;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	width: 70px;
+	height: 70px;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5%;
+
+
+
+}
+
+.bucket{
+	position: absolute;
+	margin-top: 40%;
+
+
+}
+
+.bucket img {
+	height: 40px;
+	width: 100px;
+}
+
+.bucket h2 {
+	text-align: center;	
+}
