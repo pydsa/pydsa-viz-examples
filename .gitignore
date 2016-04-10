@@ -3,3 +3,6 @@
 bin
 lib
 include
+
+# .pyc files
+*.pyc
