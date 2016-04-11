@@ -1,0 +1,30 @@
+The following things are included in this folder:
+
+1. "line.py":Line Intesection algorithm built in python with visualization
+2. "sort.py":QuickSort Implementaion built in python with visualization
+3. "executor.sh": A linux shell script, purposed to smoothen the functioning  of a user. Its a choice to execute this script or not.
+
+Few points to remember while executing the python programs:  
+  
+  -)line.py : line.py is a program purposed to check the consistency of 2-D equations, invoking the mathematics formula for checking, as well
+              as the program finds the solution of the given equations.
+              
+              This program provides the visualization of the lines by plotting them on a graph using matplotlib library.
+              
+              The things to be kept in mind while giving the input equations is that if the equations has no coefficient of (x/y), in that case
+              input the equation with coeffiecient 1. For example, if the equation is (-x+y=0), the input equation must be  (-1x+1y+0=0)
+              
+              Other thing to be kept in mind that if the equation is of form (y=0), then the input equation must be (0x+1y+0=0)  
+              
+  
+  -)sort.py : Sort.py will only ask the user about the number of input to be generated in a list and it will automatically generate the list in 
+              range (-50,50). 
+              
+              And it will also show you the iteration visualization and helps to create a better understanding for the algorithm.
+              
+  
+  -)executor.sh : No such conditions, just meant to smoothen the working of these mentioned programs. In linux terminal:
+                    -) Go to current directory where these files are downloaded
+                    -) Type the following command "sh executor.sh"
+                    
+ 
