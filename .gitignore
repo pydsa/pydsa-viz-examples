@@ -6,3 +6,12 @@ include
 
 # .pyc files
 *.pyc
+
+# Buffered files
+*~
+
+# Database
+db.sqlite3
+
+# Environment files
+.env

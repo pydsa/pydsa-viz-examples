@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans',sans-serif;
+  transition: all 0.5s ease-in-out;
+
+}
+
+body {
+  background-color: #87C6C6;
+}
+#caption{
+  letter-spacing: 0px;
+  text-align: center;
+  background-color:#3d4e3d;
+  color: #eee;
+}
+
+p {
+  /*background-color: #3d4e3d;*/
+  padding: 10px;
+  color: #3d4e3d;
+  letter-spacing: 2px;
+
+}
+
+h1 {
+  /*background-color: #1493e3;*/
+  padding: 10px;
+  color:#3d4e3d;
+
+}
+h2 ul  {
+  margin:120px auto;
+  font-size:1em;
+  text-align:center;
+  list-style: none;
+
+}
+
+h2 ul li a {
+  color: #3d4e3d;
+  text-decoration : none;
+  font-weight: bold;
+}
+
+h2 ul li a:hover {
+  color:#eee;
+}
+
+
+#output_print {
+  /*background-color: red;*/
+  width: 41%;
+  float: right;
+  margin-top: 50px;
+  padding: 2%;
+  height:336px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  transition: all .7s ease-in-out;
+
+}
+
+
+#graph {
+
+  width :51%;
+  float:left;
+  margin-top: 50px;
+  padding: 2%;
+}
+
+
+#team {
+  position: absolute;
+  background-color: #3d4e3d;
+  color : #eeeeee;
+  padding: 10px;
+  box-sizing: border-box;
+  left:0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#team span {
+  font-weight: lighter;
+
+}
+
+
+#output_print span {
+  float: right;
+}
