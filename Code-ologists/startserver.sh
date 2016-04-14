@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python pydsa/manage.py makemigrations
-python pydsa/manage.py migrate
-python pydsa/manage.py createsuperuser
-python pydsa/manage.py runserver
+python pyDSA/manage.py makemigrations
+python pyDSA/manage.py migrate
+python pyDSA/manage.py createsuperuser
+python pyDSA/manage.py runserver
