@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<link  href="static/css/syntax.css" type="text/css" rel="StyleSheet"/>
+    <title>Bubblesort</title>
+</head>
+<body>
+        <h1><a>Bubble Sort</a> </h1>
+<center>
+            <img src="static/gif/bubble.gif"/>
+</center>
+<h1> code </h1>
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">bubblesort</span><span class="p">(</span><span class="n">lst</span><span class="p">):</span>
+    <span class="n">bound</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span>
+    <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">t</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">bound</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]:</span>
+                <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span> <span class="n">lst</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+                <span class="n">lst</span><span class="o">.</span><span class="n">log</span><span class="p">()</span>
+                <span class="n">t</span> <span class="o">=</span> <span class="n">j</span>
+        <span class="k">if</span> <span class="n">t</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">bound</span> <span class="o">=</span> <span class="n">t</span>
+</pre></div>
+</body>
+</html>
