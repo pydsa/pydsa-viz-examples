@@ -21,7 +21,8 @@ $ source venv/bin/activate
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
  
  
-Open the link in browser and enjoy :) 
+There is some work is remaining in this visualization.we will iupdate it soon. :) 
+
 
 Team Hicode:
 -------------
